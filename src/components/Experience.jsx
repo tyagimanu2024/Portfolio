@@ -10,37 +10,37 @@ const Experience = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "hover:shadow-orange-500",
+      style: "hover:shadow-orange-500 shadow-orange-500",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      style: "hover:shadow-blue-500",
+      style: "hover:shadow-blue-500 shadow-blue-500",
     },
     {
       id: 3,
       src: javascript,
       title: "Javascript",
-      style: "hover:shadow-yellow-500",
+      style: "hover:shadow-yellow-800 shadow-yellow-400 ",
     },
     {
       id: 4,
       src: react,
       title: "React",
-      style: "hover:shadow-blue-600",
+      style: "hover:shadow-blue-800 shadow-blue-400",
     },
     {
       id: 5,
       src: tailwind,
       title: "Tailwind CSS",
-      style: "hover:shadow-sky-400",
+      style: "hover:shadow-sky-800 shadow-sky-400",
     },
     {
       id: 6,
       src: nextjs,
       title: "Next Js",
-      style: "hover:shadow-white",
+      style: "shadow-white ",
     },
   ];
   return (
